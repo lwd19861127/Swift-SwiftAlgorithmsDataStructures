@@ -30,6 +30,7 @@ func rollDiceSumHelper(dice: Int, desiredSum: Int, soFar: Int, _ chosen: inout [
         }
     }
 }
+
 func rollDiceSum(dice: Int, sum: Int) {
     var chosen = [Int](repeating: 0, count: 10000)
     // pass by reference (same array)

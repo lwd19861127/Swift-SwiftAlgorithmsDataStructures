@@ -43,3 +43,6 @@ import Foundation
 //print(stack.pop())
 //print(stack.pop())
 //print(stack.pop())
+
+
+printAllFilesOrDirectories(path: FileManager().currentDirectoryPath)

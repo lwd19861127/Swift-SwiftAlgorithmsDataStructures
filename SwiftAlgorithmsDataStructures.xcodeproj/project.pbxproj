@@ -18,6 +18,7 @@
 		8646FC5523F619D20064CBB2 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5223F619D20064CBB2 /* Bag.swift */; };
 		8646FC5623F619D20064CBB2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5323F619D20064CBB2 /* Queue.swift */; };
 		8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5823F74DAB0064CBB2 /* BackTracking.swift */; };
+		8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		8646FC5223F619D20064CBB2 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		8646FC5323F619D20064CBB2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		8646FC5823F74DAB0064CBB2 /* BackTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
+		8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProject1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		8646FC2C23F220640064CBB2 /* SwiftAlgorithmsDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				8646FC5A23F8AF2C0064CBB2 /* Mini-Project 1 */,
 				8646FC5723F74D980064CBB2 /* BackTracking */,
 				8646FC5023F619D20064CBB2 /* DateStructures1 */,
 				8646FC3923F370930064CBB2 /* Recursion */,
@@ -124,6 +127,14 @@
 				8646FC5823F74DAB0064CBB2 /* BackTracking.swift */,
 			);
 			path = BackTracking;
+			sourceTree = "<group>";
+		};
+		8646FC5A23F8AF2C0064CBB2 /* Mini-Project 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */,
+			);
+			path = "Mini-Project 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			files = (
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
+				8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */,
 				8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */,
 				8646FC4523F4DF170064CBB2 /* QuickSort.swift in Sources */,
 				8646FC3D23F376370064CBB2 /* String+DPStringTool.swift in Sources */,
