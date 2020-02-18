@@ -7,31 +7,33 @@
 //
 
 import Foundation
-
+var steps = 1
 func printAllFilesOrDirectories(path: String) {
-    let fileManager = FileManager.default
-    
     do {
-        print("├─ " + path)
+        let fileManager = FileManager.default
         var isDir : ObjCBool = false
+        
+        print("├─"+path)
+        
         let paths = try fileManager.contentsOfDirectory(atPath: path)
         for (index, pa) in paths.enumerated() {
+            for _ in (1...steps) {
+                print("│    ", terminator: "")
+            }
             if fileManager.fileExists(atPath: pa, isDirectory: &isDir) {
                 if isDir.boolValue {
                     // file exists and is a directory
+                    steps += 1
                     printAllFilesOrDirectories(path: pa)
-                } else {
-                    // file exists and is not a directory
-                    print("├─ " + pa)
                 }
-                
             }
-            if index != paths.count - 1 {
-                print("│    ├─ "+pa)
+            // when file exists and is not a directory Or file not exists print current path
+            if index < paths.count - 1 {
+                print("├─ "+pa)
             }else {
-                print("│    └─ "+pa)
+                steps -= 1
+                print("└─ "+pa)
             }
-            
         }
     }
     catch {
