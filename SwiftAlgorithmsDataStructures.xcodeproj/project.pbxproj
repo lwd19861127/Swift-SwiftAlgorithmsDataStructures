@@ -19,6 +19,9 @@
 		8646FC5623F619D20064CBB2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5323F619D20064CBB2 /* Queue.swift */; };
 		8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5823F74DAB0064CBB2 /* BackTracking.swift */; };
 		8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */; };
+		8646FC6023FCA5A60064CBB2 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5E23FCA5A60064CBB2 /* Board.swift */; };
+		8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5F23FCA5A60064CBB2 /* QueensSolver.swift */; };
+		8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +51,9 @@
 		8646FC5323F619D20064CBB2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		8646FC5823F74DAB0064CBB2 /* BackTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
 		8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProject1.swift; sourceTree = "<group>"; };
+		8646FC5E23FCA5A60064CBB2 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		8646FC5F23FCA5A60064CBB2 /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
+		8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 		8646FC2C23F220640064CBB2 /* SwiftAlgorithmsDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				8646FC6223FCA8730064CBB2 /* ExhaustiveSearches */,
+				8646FC5D23FCA57A0064CBB2 /* Mini-Project 2 */,
 				8646FC5A23F8AF2C0064CBB2 /* Mini-Project 1 */,
 				8646FC5723F74D980064CBB2 /* BackTracking */,
 				8646FC5023F619D20064CBB2 /* DateStructures1 */,
@@ -135,6 +143,23 @@
 				8646FC5B23F8AF4A0064CBB2 /* MiniProject1.swift */,
 			);
 			path = "Mini-Project 1";
+			sourceTree = "<group>";
+		};
+		8646FC5D23FCA57A0064CBB2 /* Mini-Project 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8646FC5E23FCA5A60064CBB2 /* Board.swift */,
+				8646FC5F23FCA5A60064CBB2 /* QueensSolver.swift */,
+			);
+			path = "Mini-Project 2";
+			sourceTree = "<group>";
+		};
+		8646FC6223FCA8730064CBB2 /* ExhaustiveSearches */ = {
+			isa = PBXGroup;
+			children = (
+				8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */,
+			);
+			path = ExhaustiveSearches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +223,14 @@
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
 				8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */,
+				8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */,
 				8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */,
 				8646FC4523F4DF170064CBB2 /* QuickSort.swift in Sources */,
 				8646FC3D23F376370064CBB2 /* String+DPStringTool.swift in Sources */,
+				8646FC6023FCA5A60064CBB2 /* Board.swift in Sources */,
 				8646FC5423F619D20064CBB2 /* Stack.swift in Sources */,
 				8646FC5623F619D20064CBB2 /* Queue.swift in Sources */,
+				8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */,
 				8646FC3823F228670064CBB2 /* Sorting.swift in Sources */,
 				8646FC3623F220990064CBB2 /* Searching.swift in Sources */,
 				8646FC5523F619D20064CBB2 /* Bag.swift in Sources */,

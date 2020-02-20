@@ -44,5 +44,10 @@ import Foundation
 //print(stack.pop())
 //print(stack.pop())
 
+//printAllFilesOrDirectories(path: FileManager().currentDirectoryPath)
 
-printAllFilesOrDirectories(path: FileManager().currentDirectoryPath)
+var board = Board(size: 8)
+solveQueens(board: &board, col: 0)
+print(mini_project_2_steps)
+print(mini_project_2_sol)
+print(mini_project_2_firstSteps)

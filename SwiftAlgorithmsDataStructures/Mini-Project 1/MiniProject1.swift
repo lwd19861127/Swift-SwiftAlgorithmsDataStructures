@@ -7,7 +7,7 @@
 //
 
 import Foundation
-var steps = 1
+var mini_project_1_steps = 1
 func printAllFilesOrDirectories(path: String) {
     do {
         let fileManager = FileManager.default
@@ -17,13 +17,13 @@ func printAllFilesOrDirectories(path: String) {
         
         let paths = try fileManager.contentsOfDirectory(atPath: path)
         for (index, pa) in paths.enumerated() {
-            for _ in (1...steps) {
+            for _ in (1...mini_project_1_steps) {
                 print("│    ", terminator: "")
             }
             if fileManager.fileExists(atPath: pa, isDirectory: &isDir) {
                 if isDir.boolValue {
                     // file exists and is a directory
-                    steps += 1
+                    mini_project_1_steps += 1
                     printAllFilesOrDirectories(path: pa)
                 }
             }
@@ -31,7 +31,7 @@ func printAllFilesOrDirectories(path: String) {
             if index < paths.count - 1 {
                 print("├─ "+pa)
             }else {
-                steps -= 1
+                mini_project_1_steps -= 1
                 print("└─ "+pa)
             }
         }
