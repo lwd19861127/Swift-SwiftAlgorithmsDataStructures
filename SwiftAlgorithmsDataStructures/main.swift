@@ -46,8 +46,13 @@ import Foundation
 
 //printAllFilesOrDirectories(path: FileManager().currentDirectoryPath)
 
-var board = Board(size: 8)
-solveQueens(board: &board, col: 0)
-print(mini_project_2_steps)
-print(mini_project_2_sol)
-print(mini_project_2_firstSteps)
+//var board = Board(size: 8)
+//solveQueens(board: &board, col: 0)
+//print(mini_project_2_steps)
+//print(mini_project_2_sol)
+//print(mini_project_2_firstSteps)
+
+//var heap = Heap(elements: [1], priorityFunction: >)
+//print(heap.elements)
+
+smallestOrlargestMElementsInNItems()
