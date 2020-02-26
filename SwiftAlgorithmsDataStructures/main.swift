@@ -55,4 +55,6 @@ import Foundation
 //var heap = Heap(elements: [1], priorityFunction: >)
 //print(heap.elements)
 
-smallestOrlargestMElementsInNItems()
+//smallestOrlargestMElementsInNItems()
+
+LCA()

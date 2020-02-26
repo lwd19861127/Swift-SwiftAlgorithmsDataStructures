@@ -5,7 +5,6 @@
 //  Created by Derrick Park on 2/12/20.
 //  Copyright © 2020 Derrick Park. All rights reserved.
 //
-
 import Foundation
 
 /// The Queue class represents a first-in-first-out (FIFO) queue of generic items.
@@ -34,43 +33,34 @@ public final class Queue<E> : Sequence {
     
     /// Returns true if this queue is empty.
     public func isEmpty() -> Bool {
-        if count == 0 {
-            return true
-        } else {
-            return false
-        }
+        return first == nil
     }
     
     /// Returns the item least recently added to this queue.
     public func peek() -> E? {
-        if let item = first?.item {
-            return item
-        }
-        return nil
+        return first?.item
     }
     
     /// Adds the item to this queue
     /// - Parameter item: the item to add
     public func enqueue(item: E) {
-        if count == 0 {
-            first = Node<E>(item: item, next: nil)
-            last = first
-        } else {
-            let newNode = Node<E>(item: item, next: nil)
-            last?.next = newNode
-            last = newNode
-        }
+        let oldLast = last
+        last = Node<E>(item: item)
+        if isEmpty() { first = last }
+        else { oldLast?.next = last }
+        count += 1
     }
     
     /// Removes and returns the item on this queue that was least recently added.
     public func dequeue() -> E? {
-        if count == 0 {
-            return nil
-        } else {
-            let item = first?.item
+        if let item = first?.item {
             first = first?.next
+            count -= 1
+            // to avoid loitering
+            if isEmpty() { last = nil }
             return item
         }
+        return nil
     }
     
     /// QueueIterator that iterates over the items in FIFO order.
@@ -78,7 +68,7 @@ public final class Queue<E> : Sequence {
         private var current: Node<E>?
         
         fileprivate init(_ first: Node<E>?) {
-            current = first
+            self.current = first
         }
         
         public mutating func next() -> E? {
