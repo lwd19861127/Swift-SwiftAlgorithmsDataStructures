@@ -57,4 +57,8 @@ import Foundation
 
 //smallestOrlargestMElementsInNItems()
 
-LCA()
+//LCA()
+
+var uf = UF(13)
+uf.union(9, 11)
+print(uf.connected(9, 11))
