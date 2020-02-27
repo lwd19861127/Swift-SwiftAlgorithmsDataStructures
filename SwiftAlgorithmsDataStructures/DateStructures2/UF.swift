@@ -77,5 +77,6 @@ public struct UF {
             parent[n] = m
             size[m] += size[n]
         }
+        count -= 1
     }
 }
