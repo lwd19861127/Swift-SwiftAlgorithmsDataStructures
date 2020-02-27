@@ -15,6 +15,11 @@
 		8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC2C2405D6FE00E3609A /* Bipartite.swift */; };
 		8620FC302405E9E300E3609A /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC2F2405E9E300E3609A /* LCA.swift */; };
 		8620FC352407291B00E3609A /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC342407291A00E3609A /* UF.swift */; };
+		8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC36240730F200E3609A /* DepthFirstSearch.swift */; };
+		8620FC3A240730F200E3609A /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC37240730F200E3609A /* Graph.swift */; };
+		8620FC3B240730F200E3609A /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC38240730F200E3609A /* BreadthFirstSearch.swift */; };
+		8620FC3D2407310900E3609A /* Error+CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC3C2407310900E3609A /* Error+CustomErrors.swift */; };
+		8620FC3F2407367D00E3609A /* FriendCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC3E2407367D00E3609A /* FriendCircles.swift */; };
 		8646FC2E23F220640064CBB2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC2D23F220640064CBB2 /* main.swift */; };
 		8646FC3623F220990064CBB2 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC3523F220990064CBB2 /* Searching.swift */; };
 		8646FC3823F228670064CBB2 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC3723F228670064CBB2 /* Sorting.swift */; };
@@ -55,6 +60,11 @@
 		8620FC2C2405D6FE00E3609A /* Bipartite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bipartite.swift; sourceTree = "<group>"; };
 		8620FC2F2405E9E300E3609A /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		8620FC342407291A00E3609A /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
+		8620FC36240730F200E3609A /* DepthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
+		8620FC37240730F200E3609A /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		8620FC38240730F200E3609A /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
+		8620FC3C2407310900E3609A /* Error+CustomErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+CustomErrors.swift"; sourceTree = "<group>"; };
+		8620FC3E2407367D00E3609A /* FriendCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCircles.swift; sourceTree = "<group>"; };
 		8646FC2A23F220640064CBB2 /* SwiftAlgorithmsDataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithmsDataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		8646FC2D23F220640064CBB2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8646FC3523F220990064CBB2 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
@@ -90,6 +100,9 @@
 		8620FC1F2404A3C700E3609A /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				8620FC38240730F200E3609A /* BreadthFirstSearch.swift */,
+				8620FC36240730F200E3609A /* DepthFirstSearch.swift */,
+				8620FC37240730F200E3609A /* Graph.swift */,
 				8620FC222405891600E3609A /* BFS.swift */,
 				8620FC242405CA3D00E3609A /* DFS.swift */,
 				8620FC2C2405D6FE00E3609A /* Bipartite.swift */,
@@ -112,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8620FC342407291A00E3609A /* UF.swift */,
+				8620FC3E2407367D00E3609A /* FriendCircles.swift */,
 			);
 			path = DateStructures2;
 			sourceTree = "<group>";
@@ -148,6 +162,7 @@
 				8646FC3423F220710064CBB2 /* SearchingSorting */,
 				8646FC2D23F220640064CBB2 /* main.swift */,
 				8646FC3C23F376370064CBB2 /* String+DPStringTool.swift */,
+				8620FC3C2407310900E3609A /* Error+CustomErrors.swift */,
 			);
 			path = SwiftAlgorithmsDataStructures;
 			sourceTree = "<group>";
@@ -282,11 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */,
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
 				8620FC292405CBBE00E3609A /* TreeTraversal.swift in Sources */,
 				8620FC352407291B00E3609A /* UF.swift in Sources */,
 				8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */,
+				8620FC3A240730F200E3609A /* Graph.swift in Sources */,
 				8620FC302405E9E300E3609A /* LCA.swift in Sources */,
 				8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */,
 				8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */,
@@ -299,12 +316,15 @@
 				8646FC5423F619D20064CBB2 /* Stack.swift in Sources */,
 				8646FC5623F619D20064CBB2 /* Queue.swift in Sources */,
 				8620FC2A2405CBBE00E3609A /* TreeQuiz.swift in Sources */,
+				8620FC3B240730F200E3609A /* BreadthFirstSearch.swift in Sources */,
 				8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */,
 				8646FC3823F228670064CBB2 /* Sorting.swift in Sources */,
 				8620FC252405CA3D00E3609A /* DFS.swift in Sources */,
+				8620FC3F2407367D00E3609A /* FriendCircles.swift in Sources */,
 				8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */,
 				8646FC3623F220990064CBB2 /* Searching.swift in Sources */,
 				8646FC5523F619D20064CBB2 /* Bag.swift in Sources */,
+				8620FC3D2407310900E3609A /* Error+CustomErrors.swift in Sources */,
 				8646FC2E23F220640064CBB2 /* main.swift in Sources */,
 				8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */,
 			);
