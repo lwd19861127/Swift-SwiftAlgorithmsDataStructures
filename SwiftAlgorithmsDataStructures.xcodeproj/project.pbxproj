@@ -37,6 +37,8 @@
 		8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */; };
 		8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */; };
 		8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE442403077C00E69AA1 /* PriorityQueue.swift */; };
+		868B690824086F6600D49597 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B690724086F6600D49597 /* FloodFill.swift */; };
+		868B690A240887EA00D49597 /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B6909240887EA00D49597 /* GraphAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +86,8 @@
 		8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallestOrlargestMElementsInNItems.swift; sourceTree = "<group>"; };
 		8678CE442403077C00E69AA1 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		868B690724086F6600D49597 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		868B6909240887EA00D49597 /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				8620FC242405CA3D00E3609A /* DFS.swift */,
 				8620FC2C2405D6FE00E3609A /* Bipartite.swift */,
 				8620FC2B2405D6FE00E3609A /* ConnectedComponents.swift */,
+				868B690724086F6600D49597 /* FloodFill.swift */,
+				868B6909240887EA00D49597 /* GraphAssignment.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */,
+				868B690A240887EA00D49597 /* GraphAssignment.swift in Sources */,
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
 				8620FC292405CBBE00E3609A /* TreeTraversal.swift in Sources */,
@@ -320,6 +327,7 @@
 				8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */,
 				8646FC3823F228670064CBB2 /* Sorting.swift in Sources */,
 				8620FC252405CA3D00E3609A /* DFS.swift in Sources */,
+				868B690824086F6600D49597 /* FloodFill.swift in Sources */,
 				8620FC3F2407367D00E3609A /* FriendCircles.swift in Sources */,
 				8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */,
 				8646FC3623F220990064CBB2 /* Searching.swift in Sources */,

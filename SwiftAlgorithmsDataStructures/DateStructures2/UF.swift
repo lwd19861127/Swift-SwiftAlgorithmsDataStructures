@@ -40,6 +40,10 @@ public struct UF {
         }
     }
     
+    public func getSize() -> [Int] {
+        return self.size
+    }
+    
     /// Returns the canonical element(root) of the set containing element `p`.
     /// - Parameter p: an element
     /// - Returns: the canonical element of the set containing `p`
@@ -73,9 +77,11 @@ public struct UF {
         if size[m] < size[n] {
             parent[m] = n
             size[n] += size[m]
+            size[m] = 1
         } else {
             parent[n] = m
             size[m] += size[n]
+            size[n] = 1
         }
         count -= 1
     }
