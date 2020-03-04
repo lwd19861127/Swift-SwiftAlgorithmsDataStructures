@@ -74,4 +74,7 @@ import Foundation
 
 //CyclicPermutation()
 
-repeatingSequence()
+//repeatingSequence()
+
+
+TomatoFarm()
