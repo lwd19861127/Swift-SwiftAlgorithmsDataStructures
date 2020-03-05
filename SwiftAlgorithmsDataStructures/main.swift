@@ -79,4 +79,7 @@ import Foundation
 
 //TomatoFarm()
 
-Bridges()
+//Bridges()
+
+//print(CourseSchedule(2, [[1,0]]))
+//print(CourseScheduleII(4, [[1,0],[2,0],[3,1],[3,2]]))

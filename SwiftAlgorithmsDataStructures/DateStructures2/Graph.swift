@@ -5,7 +5,6 @@
 //  Created by Derrick Park on 2/12/19.
 //  Copyright © 2020 Derrick Park. All rights reserved.
 //
-
 import Foundation
 
 /// The *Graph* class represents an undirected graph of vertices named 0 through **V** - 1

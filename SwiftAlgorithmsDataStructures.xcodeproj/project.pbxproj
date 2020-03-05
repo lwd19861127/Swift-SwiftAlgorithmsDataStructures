@@ -16,10 +16,8 @@
 		8620FC302405E9E300E3609A /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC2F2405E9E300E3609A /* LCA.swift */; };
 		8620FC352407291B00E3609A /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC342407291A00E3609A /* UF.swift */; };
 		8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC36240730F200E3609A /* DepthFirstSearch.swift */; };
-		8620FC3A240730F200E3609A /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC37240730F200E3609A /* Graph.swift */; };
 		8620FC3B240730F200E3609A /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC38240730F200E3609A /* BreadthFirstSearch.swift */; };
 		8620FC3D2407310900E3609A /* Error+CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC3C2407310900E3609A /* Error+CustomErrors.swift */; };
-		8620FC3F2407367D00E3609A /* FriendCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620FC3E2407367D00E3609A /* FriendCircles.swift */; };
 		8646FC2E23F220640064CBB2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC2D23F220640064CBB2 /* main.swift */; };
 		8646FC3623F220990064CBB2 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC3523F220990064CBB2 /* Searching.swift */; };
 		8646FC3823F228670064CBB2 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC3723F228670064CBB2 /* Sorting.swift */; };
@@ -39,8 +37,17 @@
 		8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */; };
 		8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE442403077C00E69AA1 /* PriorityQueue.swift */; };
 		868B690824086F6600D49597 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B690724086F6600D49597 /* FloodFill.swift */; };
-		868B690A240887EA00D49597 /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B6909240887EA00D49597 /* GraphAssignment.swift */; };
 		868CBDD524105B110035A458 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CBDD424105B110035A458 /* Bridges.swift */; };
+		8699A61D2411A9FC00C305B8 /* CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61C2411A9FC00C305B8 /* CC.swift */; };
+		8699A61F2411AA1B00C305B8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61E2411AA1B00C305B8 /* Graph.swift */; };
+		8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6202411AA8F00C305B8 /* LCALazy.swift */; };
+		8699A6242411AB0900C305B8 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6232411AB0900C305B8 /* Sushi.swift */; };
+		8699A6262411AB6F00C305B8 /* CyclicPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6252411AB6F00C305B8 /* CyclicPermutation.swift */; };
+		8699A6282411AB9000C305B8 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6272411AB9000C305B8 /* repeatingSequence.swift */; };
+		8699A62A2411ABCA00C305B8 /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6292411ABCA00C305B8 /* TopologicalSort.swift */; };
+		8699A62C2411ABEB00C305B8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A62B2411ABEB00C305B8 /* Town.swift */; };
+		8699A62F2411AED700C305B8 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A62E2411AED700C305B8 /* CourseSchedule.swift */; };
+		8699A6312411AEEC00C305B8 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6302411AEEC00C305B8 /* CourseScheduleII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,10 +72,8 @@
 		8620FC2F2405E9E300E3609A /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		8620FC342407291A00E3609A /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		8620FC36240730F200E3609A /* DepthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
-		8620FC37240730F200E3609A /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		8620FC38240730F200E3609A /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
 		8620FC3C2407310900E3609A /* Error+CustomErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+CustomErrors.swift"; sourceTree = "<group>"; };
-		8620FC3E2407367D00E3609A /* FriendCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCircles.swift; sourceTree = "<group>"; };
 		8646FC2A23F220640064CBB2 /* SwiftAlgorithmsDataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithmsDataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		8646FC2D23F220640064CBB2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8646FC3523F220990064CBB2 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
@@ -90,8 +95,17 @@
 		8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallestOrlargestMElementsInNItems.swift; sourceTree = "<group>"; };
 		8678CE442403077C00E69AA1 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		868B690724086F6600D49597 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
-		868B6909240887EA00D49597 /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
 		868CBDD424105B110035A458 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
+		8699A61C2411A9FC00C305B8 /* CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC.swift; sourceTree = "<group>"; };
+		8699A61E2411AA1B00C305B8 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		8699A6202411AA8F00C305B8 /* LCALazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCALazy.swift; sourceTree = "<group>"; };
+		8699A6232411AB0900C305B8 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
+		8699A6252411AB6F00C305B8 /* CyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicPermutation.swift; sourceTree = "<group>"; };
+		8699A6272411AB9000C305B8 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
+		8699A6292411ABCA00C305B8 /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
+		8699A62B2411ABEB00C305B8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		8699A62E2411AED700C305B8 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		8699A6302411AEEC00C305B8 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,17 +122,20 @@
 		8620FC1F2404A3C700E3609A /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				8620FC38240730F200E3609A /* BreadthFirstSearch.swift */,
-				8620FC36240730F200E3609A /* DepthFirstSearch.swift */,
-				8620FC37240730F200E3609A /* Graph.swift */,
 				8620FC222405891600E3609A /* BFS.swift */,
 				8620FC242405CA3D00E3609A /* DFS.swift */,
 				8620FC2C2405D6FE00E3609A /* Bipartite.swift */,
 				8620FC2B2405D6FE00E3609A /* ConnectedComponents.swift */,
 				868B690724086F6600D49597 /* FloodFill.swift */,
-				868B6909240887EA00D49597 /* GraphAssignment.swift */,
 				86646CD3240F1E6C00E21511 /* TomatoFarm.swift */,
 				868CBDD424105B110035A458 /* Bridges.swift */,
+				8699A6232411AB0900C305B8 /* Sushi.swift */,
+				8699A6252411AB6F00C305B8 /* CyclicPermutation.swift */,
+				8699A6272411AB9000C305B8 /* repeatingSequence.swift */,
+				8699A6292411ABCA00C305B8 /* TopologicalSort.swift */,
+				8699A62B2411ABEB00C305B8 /* Town.swift */,
+				8699A62E2411AED700C305B8 /* CourseSchedule.swift */,
+				8699A6302411AEEC00C305B8 /* CourseScheduleII.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -129,6 +146,7 @@
 				8620FC272405CBBD00E3609A /* TreeTraversal.swift */,
 				8620FC282405CBBD00E3609A /* TreeQuiz.swift */,
 				8620FC2F2405E9E300E3609A /* LCA.swift */,
+				8699A6202411AA8F00C305B8 /* LCALazy.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -136,8 +154,11 @@
 		8620FC31240728B500E3609A /* DateStructures2 */ = {
 			isa = PBXGroup;
 			children = (
+				8620FC38240730F200E3609A /* BreadthFirstSearch.swift */,
+				8620FC36240730F200E3609A /* DepthFirstSearch.swift */,
 				8620FC342407291A00E3609A /* UF.swift */,
-				8620FC3E2407367D00E3609A /* FriendCircles.swift */,
+				8699A61C2411A9FC00C305B8 /* CC.swift */,
+				8699A61E2411AA1B00C305B8 /* Graph.swift */,
 			);
 			path = DateStructures2;
 			sourceTree = "<group>";
@@ -172,9 +193,8 @@
 				8620FC31240728B500E3609A /* DateStructures2 */,
 				8646FC3923F370930064CBB2 /* Recursion */,
 				8646FC3423F220710064CBB2 /* SearchingSorting */,
+				8699A62D2411AC4A00C305B8 /* Util */,
 				8646FC2D23F220640064CBB2 /* main.swift */,
-				8646FC3C23F376370064CBB2 /* String+DPStringTool.swift */,
-				8620FC3C2407310900E3609A /* Error+CustomErrors.swift */,
 			);
 			path = SwiftAlgorithmsDataStructures;
 			sourceTree = "<group>";
@@ -251,6 +271,15 @@
 			path = "Group Presentation";
 			sourceTree = "<group>";
 		};
+		8699A62D2411AC4A00C305B8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8646FC3C23F376370064CBB2 /* String+DPStringTool.swift */,
+				8620FC3C2407310900E3609A /* Error+CustomErrors.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,13 +339,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */,
-				868B690A240887EA00D49597 /* GraphAssignment.swift in Sources */,
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
 				8620FC292405CBBE00E3609A /* TreeTraversal.swift in Sources */,
 				8620FC352407291B00E3609A /* UF.swift in Sources */,
+				8699A6312411AEEC00C305B8 /* CourseScheduleII.swift in Sources */,
+				8699A6242411AB0900C305B8 /* Sushi.swift in Sources */,
 				8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */,
-				8620FC3A240730F200E3609A /* Graph.swift in Sources */,
+				8699A6262411AB6F00C305B8 /* CyclicPermutation.swift in Sources */,
+				8699A6282411AB9000C305B8 /* repeatingSequence.swift in Sources */,
 				8620FC302405E9E300E3609A /* LCA.swift in Sources */,
 				8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */,
 				868CBDD524105B110035A458 /* Bridges.swift in Sources */,
@@ -328,20 +359,25 @@
 				8646FC3D23F376370064CBB2 /* String+DPStringTool.swift in Sources */,
 				8646FC6023FCA5A60064CBB2 /* Board.swift in Sources */,
 				8646FC5423F619D20064CBB2 /* Stack.swift in Sources */,
+				8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */,
 				8646FC5623F619D20064CBB2 /* Queue.swift in Sources */,
 				8620FC2A2405CBBE00E3609A /* TreeQuiz.swift in Sources */,
 				8620FC3B240730F200E3609A /* BreadthFirstSearch.swift in Sources */,
 				8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */,
 				8646FC3823F228670064CBB2 /* Sorting.swift in Sources */,
+				8699A61F2411AA1B00C305B8 /* Graph.swift in Sources */,
 				8620FC252405CA3D00E3609A /* DFS.swift in Sources */,
 				868B690824086F6600D49597 /* FloodFill.swift in Sources */,
-				8620FC3F2407367D00E3609A /* FriendCircles.swift in Sources */,
 				86646CD4240F1E6C00E21511 /* TomatoFarm.swift in Sources */,
+				8699A62C2411ABEB00C305B8 /* Town.swift in Sources */,
 				8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */,
 				8646FC3623F220990064CBB2 /* Searching.swift in Sources */,
 				8646FC5523F619D20064CBB2 /* Bag.swift in Sources */,
 				8620FC3D2407310900E3609A /* Error+CustomErrors.swift in Sources */,
 				8646FC2E23F220640064CBB2 /* main.swift in Sources */,
+				8699A62A2411ABCA00C305B8 /* TopologicalSort.swift in Sources */,
+				8699A62F2411AED700C305B8 /* CourseSchedule.swift in Sources */,
+				8699A61D2411A9FC00C305B8 /* CC.swift in Sources */,
 				8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
