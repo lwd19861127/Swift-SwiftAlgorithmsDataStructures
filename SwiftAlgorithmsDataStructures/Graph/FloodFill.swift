@@ -60,7 +60,6 @@ func FloodFill(_ M: [[Int]]) {
                 if isLeftOne(i, j) {
                     uf.union(i*M.count+j, (i)*M.count+j-1)
                 }
-                print(uf)
             }
         }
     }

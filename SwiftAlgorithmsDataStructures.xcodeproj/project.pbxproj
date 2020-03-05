@@ -40,6 +40,7 @@
 		8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE442403077C00E69AA1 /* PriorityQueue.swift */; };
 		868B690824086F6600D49597 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B690724086F6600D49597 /* FloodFill.swift */; };
 		868B690A240887EA00D49597 /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B6909240887EA00D49597 /* GraphAssignment.swift */; };
+		868CBDD524105B110035A458 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CBDD424105B110035A458 /* Bridges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,7 @@
 		8678CE442403077C00E69AA1 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		868B690724086F6600D49597 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		868B6909240887EA00D49597 /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
+		868CBDD424105B110035A458 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				868B690724086F6600D49597 /* FloodFill.swift */,
 				868B6909240887EA00D49597 /* GraphAssignment.swift */,
 				86646CD3240F1E6C00E21511 /* TomatoFarm.swift */,
+				868CBDD424105B110035A458 /* Bridges.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				8620FC3A240730F200E3609A /* Graph.swift in Sources */,
 				8620FC302405E9E300E3609A /* LCA.swift in Sources */,
 				8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */,
+				868CBDD524105B110035A458 /* Bridges.swift in Sources */,
 				8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */,
 				8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */,
 				8620FC232405891600E3609A /* BFS.swift in Sources */,

@@ -43,6 +43,9 @@ public struct UF {
     public func getSize() -> [Int] {
         return self.size
     }
+    public func getParent() -> [Int] {
+        return self.parent
+    }
     
     /// Returns the canonical element(root) of the set containing element `p`.
     /// - Parameter p: an element
