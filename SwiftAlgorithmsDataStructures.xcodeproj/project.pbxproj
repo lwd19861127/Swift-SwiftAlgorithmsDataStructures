@@ -34,6 +34,7 @@
 		8646FC6123FCA5A60064CBB2 /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC5F23FCA5A60064CBB2 /* QueensSolver.swift */; };
 		8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */; };
 		86646CD4240F1E6C00E21511 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86646CD3240F1E6C00E21511 /* TomatoFarm.swift */; };
+		86764B0524130564007951B8 /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86764B0424130564007951B8 /* TaskScheduler.swift */; };
 		8678CE432402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */; };
 		8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678CE442403077C00E69AA1 /* PriorityQueue.swift */; };
 		868B690824086F6600D49597 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B690724086F6600D49597 /* FloodFill.swift */; };
@@ -48,6 +49,7 @@
 		8699A62C2411ABEB00C305B8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A62B2411ABEB00C305B8 /* Town.swift */; };
 		8699A62F2411AED700C305B8 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A62E2411AED700C305B8 /* CourseSchedule.swift */; };
 		8699A6312411AEEC00C305B8 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6302411AEEC00C305B8 /* CourseScheduleII.swift */; };
+		8699A6342411BEE100C305B8 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6332411BEE100C305B8 /* GasStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +94,7 @@
 		8646FC5F23FCA5A60064CBB2 /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 		8646FC6323FCA8CF0064CBB2 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		86646CD3240F1E6C00E21511 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
+		86764B0424130564007951B8 /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
 		8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallestOrlargestMElementsInNItems.swift; sourceTree = "<group>"; };
 		8678CE442403077C00E69AA1 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		868B690724086F6600D49597 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 		8699A62B2411ABEB00C305B8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		8699A62E2411AED700C305B8 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		8699A6302411AEEC00C305B8 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
+		8699A6332411BEE100C305B8 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 		8646FC2C23F220640064CBB2 /* SwiftAlgorithmsDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				8699A6322411BEC900C305B8 /* Greedy */,
 				8620FC262405CBBD00E3609A /* Tree */,
 				8620FC1F2404A3C700E3609A /* Graph */,
 				8678CE412402FDB300E69AA1 /* Group Presentation */,
@@ -280,6 +285,15 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		8699A6322411BEC900C305B8 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				8699A6332411BEE100C305B8 /* GasStation.swift */,
+				86764B0424130564007951B8 /* TaskScheduler.swift */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8699A6342411BEE100C305B8 /* GasStation.swift in Sources */,
 				8620FC39240730F200E3609A /* DepthFirstSearch.swift in Sources */,
 				8646FC4323F4D3930064CBB2 /* Assignment1.swift in Sources */,
 				8646FC3B23F370B80064CBB2 /* Recursion.swift in Sources */,
@@ -352,6 +367,7 @@
 				8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */,
 				868CBDD524105B110035A458 /* Bridges.swift in Sources */,
 				8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */,
+				86764B0524130564007951B8 /* TaskScheduler.swift in Sources */,
 				8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */,
 				8620FC232405891600E3609A /* BFS.swift in Sources */,
 				8620FC2D2405D6FE00E3609A /* ConnectedComponents.swift in Sources */,
