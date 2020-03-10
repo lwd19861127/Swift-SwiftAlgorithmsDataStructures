@@ -90,5 +90,7 @@ import Foundation
 
 //print(scheduleCourse([[100, 200], [200, 1300], [1000, 1250], [2000, 3200]]))
 
-print(partitionLabels("qiejxqfnqceocmy"))
+//print(partitionLabels("qiejxqfnqceocmy"))
+
+print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
 

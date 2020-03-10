@@ -41,6 +41,7 @@
 		868CBDD524105B110035A458 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CBDD424105B110035A458 /* Bridges.swift */; };
 		869035BE241573B800BC76A3 /* CourseScheduleIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035BD241573B800BC76A3 /* CourseScheduleIII.swift */; };
 		869035C02417010100BC76A3 /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035BF2417010100BC76A3 /* PartitionLabels.swift */; };
+		869035C224180E7500BC76A3 /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C124180E7500BC76A3 /* TwoCityScheduling.swift */; };
 		8699A61D2411A9FC00C305B8 /* CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61C2411A9FC00C305B8 /* CC.swift */; };
 		8699A61F2411AA1B00C305B8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61E2411AA1B00C305B8 /* Graph.swift */; };
 		8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6202411AA8F00C305B8 /* LCALazy.swift */; };
@@ -103,6 +104,7 @@
 		868CBDD424105B110035A458 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		869035BD241573B800BC76A3 /* CourseScheduleIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleIII.swift; sourceTree = "<group>"; };
 		869035BF2417010100BC76A3 /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
+		869035C124180E7500BC76A3 /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 		8699A61C2411A9FC00C305B8 /* CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC.swift; sourceTree = "<group>"; };
 		8699A61E2411AA1B00C305B8 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		8699A6202411AA8F00C305B8 /* LCALazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCALazy.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				86764B0424130564007951B8 /* TaskScheduler.swift */,
 				869035BD241573B800BC76A3 /* CourseScheduleIII.swift */,
 				869035BF2417010100BC76A3 /* PartitionLabels.swift */,
+				869035C124180E7500BC76A3 /* TwoCityScheduling.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				8646FC6023FCA5A60064CBB2 /* Board.swift in Sources */,
 				8646FC5423F619D20064CBB2 /* Stack.swift in Sources */,
 				8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */,
+				869035C224180E7500BC76A3 /* TwoCityScheduling.swift in Sources */,
 				8646FC5623F619D20064CBB2 /* Queue.swift in Sources */,
 				8620FC2A2405CBBE00E3609A /* TreeQuiz.swift in Sources */,
 				8620FC3B240730F200E3609A /* BreadthFirstSearch.swift in Sources */,
