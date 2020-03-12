@@ -45,6 +45,7 @@
 		869035C62418578900BC76A3 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C42418578900BC76A3 /* BellmanFord.swift */; };
 		869035C72418578900BC76A3 /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C52418578900BC76A3 /* DijkstraArray.swift */; };
 		869035C924199AC300BC76A3 /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C824199AC300BC76A3 /* MinimumCostFlow.swift */; };
+		869035CD241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */; };
 		8699A61D2411A9FC00C305B8 /* CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61C2411A9FC00C305B8 /* CC.swift */; };
 		8699A61F2411AA1B00C305B8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61E2411AA1B00C305B8 /* Graph.swift */; };
 		8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6202411AA8F00C305B8 /* LCALazy.swift */; };
@@ -111,6 +112,7 @@
 		869035C42418578900BC76A3 /* BellmanFord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
 		869035C52418578900BC76A3 /* DijkstraArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
 		869035C824199AC300BC76A3 /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
+		869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
 		8699A61C2411A9FC00C305B8 /* CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC.swift; sourceTree = "<group>"; };
 		8699A61E2411AA1B00C305B8 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		8699A6202411AA8F00C305B8 /* LCALazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCALazy.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 			children = (
 				869035C42418578900BC76A3 /* BellmanFord.swift */,
 				869035C52418578900BC76A3 /* DijkstraArray.swift */,
+				869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */,
 			);
 			path = ShortestPath;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				8646FC6423FCA8CF0064CBB2 /* ExhaustiveSearch.swift in Sources */,
 				86764B0524130564007951B8 /* TaskScheduler.swift in Sources */,
 				8646FC5923F74DAB0064CBB2 /* BackTracking.swift in Sources */,
+				869035CD241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift in Sources */,
 				8620FC232405891600E3609A /* BFS.swift in Sources */,
 				8620FC2D2405D6FE00E3609A /* ConnectedComponents.swift in Sources */,
 				869035C02417010100BC76A3 /* PartitionLabels.swift in Sources */,

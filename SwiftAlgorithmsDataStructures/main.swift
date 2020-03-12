@@ -94,5 +94,6 @@ import Foundation
 
 //print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
 
-minimumCostFlow()
+//minimumCostFlow()
 
+print(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 1))
