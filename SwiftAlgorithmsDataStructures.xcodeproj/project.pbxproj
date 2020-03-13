@@ -46,6 +46,7 @@
 		869035C72418578900BC76A3 /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C52418578900BC76A3 /* DijkstraArray.swift */; };
 		869035C924199AC300BC76A3 /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035C824199AC300BC76A3 /* MinimumCostFlow.swift */; };
 		869035CD241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */; };
+		869035CF241C2B8300BC76A3 /* NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869035CE241C2B8300BC76A3 /* NetworkDelayTime.swift */; };
 		8699A61D2411A9FC00C305B8 /* CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61C2411A9FC00C305B8 /* CC.swift */; };
 		8699A61F2411AA1B00C305B8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A61E2411AA1B00C305B8 /* Graph.swift */; };
 		8699A6212411AA8F00C305B8 /* LCALazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A6202411AA8F00C305B8 /* LCALazy.swift */; };
@@ -113,6 +114,7 @@
 		869035C52418578900BC76A3 /* DijkstraArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
 		869035C824199AC300BC76A3 /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
 		869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
+		869035CE241C2B8300BC76A3 /* NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDelayTime.swift; sourceTree = "<group>"; };
 		8699A61C2411A9FC00C305B8 /* CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC.swift; sourceTree = "<group>"; };
 		8699A61E2411AA1B00C305B8 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		8699A6202411AA8F00C305B8 /* LCALazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCALazy.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		8620FC31240728B500E3609A /* DateStructures2 */ = {
 			isa = PBXGroup;
 			children = (
+				8678CE442403077C00E69AA1 /* PriorityQueue.swift */,
 				8620FC38240730F200E3609A /* BreadthFirstSearch.swift */,
 				8620FC36240730F200E3609A /* DepthFirstSearch.swift */,
 				8620FC342407291A00E3609A /* UF.swift */,
@@ -286,7 +289,6 @@
 			isa = PBXGroup;
 			children = (
 				8678CE422402FDF900E69AA1 /* smallestOrlargestMElementsInNItems.swift */,
-				8678CE442403077C00E69AA1 /* PriorityQueue.swift */,
 			);
 			path = "Group Presentation";
 			sourceTree = "<group>";
@@ -297,6 +299,7 @@
 				869035C42418578900BC76A3 /* BellmanFord.swift */,
 				869035C52418578900BC76A3 /* DijkstraArray.swift */,
 				869035CC241AEEEF00BC76A3 /* CheapestFlightsWithinKStops.swift */,
+				869035CE241C2B8300BC76A3 /* NetworkDelayTime.swift */,
 			);
 			path = ShortestPath;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				8699A6242411AB0900C305B8 /* Sushi.swift in Sources */,
 				8646FC5C23F8AF4A0064CBB2 /* MiniProject1.swift in Sources */,
 				8699A6262411AB6F00C305B8 /* CyclicPermutation.swift in Sources */,
+				869035CF241C2B8300BC76A3 /* NetworkDelayTime.swift in Sources */,
 				8699A6282411AB9000C305B8 /* repeatingSequence.swift in Sources */,
 				8620FC302405E9E300E3609A /* LCA.swift in Sources */,
 				8620FC2E2405D6FE00E3609A /* Bipartite.swift in Sources */,

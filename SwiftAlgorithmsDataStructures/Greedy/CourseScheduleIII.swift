@@ -16,7 +16,7 @@ func scheduleCourse(_ courses: [[Int]]) -> Int {
         }else {return false}
     }
     
-    var queue = Heap<Int>(elements: []) { (a, b) -> Bool in
+    let queue = PriorityQueue<Int>(elements: []) { (a, b) -> Bool in
         if b - a <= 0 {
             return true
         }else {return false}

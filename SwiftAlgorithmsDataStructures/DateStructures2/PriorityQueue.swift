@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Heap<Element> {
+public final class PriorityQueue<Element> {
     var elements : [Element]
     let priorityFunction : (Element, Element) -> Bool
     
@@ -18,7 +18,7 @@ struct Heap<Element> {
         buildHeap() // 4
     }
 
-    mutating func buildHeap() {
+    func buildHeap() {
         for index in (0 ..< count / 2).reversed() { // 5
             siftDown(elementAtIndex: index) // 6
         }
@@ -36,12 +36,12 @@ struct Heap<Element> {
       return elements.first
     }
     
-    mutating func enqueue(_ element: Element) {
+    func enqueue(_ element: Element) {
         elements.append(element)
         siftUp(elementAtIndex: count - 1)
     }
     
-    mutating func siftUp(elementAtIndex index: Int) {
+    func siftUp(elementAtIndex index: Int) {
         let parent = parentIndex(of: index) // 1
         guard !isRoot(index), // 2
             isHigherPriority(at: index, than: parent) // 3
@@ -50,7 +50,7 @@ struct Heap<Element> {
         siftUp(elementAtIndex: parent) // 5
     }
     
-    mutating func dequeue() -> Element? {
+    func dequeue() -> Element? {
         guard !isEmpty // 1
             else { return nil }
         swapElement(at: 0, with: count - 1) // 2
@@ -61,7 +61,7 @@ struct Heap<Element> {
         return element // 6
     }
     
-    mutating func siftDown(elementAtIndex index: Int) {
+    func siftDown(elementAtIndex index: Int) {
         let childIndex = highestPriorityIndex(for: index) // 1
         if index == childIndex { // 2
             return
@@ -100,7 +100,7 @@ struct Heap<Element> {
         return highestPriorityIndex(of: highestPriorityIndex(of: parent, and: leftChildIndex(of: parent)), and: rightChildIndex(of: parent))
     }
     
-    mutating func swapElement(at firstIndex: Int, with secondIndex: Int) {
+    func swapElement(at firstIndex: Int, with secondIndex: Int) {
         guard firstIndex != secondIndex
             else { return }
         elements.swapAt(firstIndex, secondIndex)

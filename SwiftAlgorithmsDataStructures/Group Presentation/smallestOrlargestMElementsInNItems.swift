@@ -26,7 +26,7 @@ func smallestOrlargestMElementsInNItems() {
     print("Please Enter smallest or largest, s or l")
     let priorityFunction = readLine()
     if priorityFunction == "s" {
-        var heap = Heap(elements: [nItemsArrayInt[0]], priorityFunction: >)
+        let heap = PriorityQueue(elements: [nItemsArrayInt[0]], priorityFunction: >)
         for i in 1...nItemsArrayInt.count - 1{
             if heap.count < m {
                 heap.enqueue(nItemsArrayInt[i])
@@ -41,7 +41,7 @@ func smallestOrlargestMElementsInNItems() {
         }
         print(heap.elements)
     }else if priorityFunction == "l" {
-        var heap = Heap(elements: [nItemsArrayInt[0]], priorityFunction: <)
+        let heap = PriorityQueue(elements: [nItemsArrayInt[0]], priorityFunction: <)
         for i in 1...nItemsArrayInt.count - 1{
             if heap.count < m {
                 heap.enqueue(nItemsArrayInt[i])
