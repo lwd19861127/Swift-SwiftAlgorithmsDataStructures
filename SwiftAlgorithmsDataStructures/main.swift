@@ -102,4 +102,6 @@ import Foundation
 
 //print(climbStairs(1))
 
-print(makeOne(10))
+//print(makeOne(10))
+
+print(twoxNtiles(9))
