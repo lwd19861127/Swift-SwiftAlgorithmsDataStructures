@@ -98,4 +98,6 @@ import Foundation
 
 //print(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 1))
 
-print(networkDelayTime([[1,2,1],[2,3,2],[1,3,2]], 3, 1))
+//print(networkDelayTime([[1,2,1],[2,3,2],[1,3,2]], 3, 1))
+
+print(climbStairs(1))
