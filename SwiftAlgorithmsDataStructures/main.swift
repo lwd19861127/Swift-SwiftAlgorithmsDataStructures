@@ -104,4 +104,6 @@ import Foundation
 
 //print(makeOne(10))
 
-print(twoxNtiles(9))
+//print(twoxNtiles(9))
+
+print(twoxNtiles_2(8))
