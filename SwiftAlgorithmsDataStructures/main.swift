@@ -106,4 +106,6 @@ import Foundation
 
 //print(twoxNtiles(9))
 
-print(twoxNtiles_2(8))
+//print(twoxNtiles_2(8))
+
+print(oneTwoThree())
