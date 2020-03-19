@@ -118,4 +118,6 @@ import Foundation
 
 //print(judgeSquareSum2(2624))
 
-print(nonDecreasingDigits(3))
+//print(nonDecreasingDigits(3))
+
+print(numDecodings("1"))
