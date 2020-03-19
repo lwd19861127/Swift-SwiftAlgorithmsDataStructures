@@ -120,4 +120,6 @@ import Foundation
 
 //print(nonDecreasingDigits(3))
 
-print(numDecodings("1"))
+//print(numDecodings("1"))
+
+print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
