@@ -114,4 +114,6 @@ import Foundation
 
 //print(lengthOfLIS([10,9,2,5,3,7,101,18]))
 
-print(judgeSquareSum(100000))
+//print(judgeSquareSum(100000))
+
+print(judgeSquareSum2(2624))
