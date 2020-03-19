@@ -116,4 +116,6 @@ import Foundation
 
 //print(judgeSquareSum(100000))
 
-print(judgeSquareSum2(2624))
+//print(judgeSquareSum2(2624))
+
+print(nonDecreasingDigits(3))
