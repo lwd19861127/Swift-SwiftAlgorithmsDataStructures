@@ -124,4 +124,10 @@ import Foundation
 
 //print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 
-print(pokemon(4, 3, [[1,2,3],[6,5,4],[7,8,9],[12,11,10]]))
+//print(pokemon(4, 3, [[1,2,3],[6,5,4],[7,8,9],[12,11,10]]))
+
+//happy("This:-(is str:-(:-(ange te:-)xt.")
+
+//print(lps("abba").count)
+
+print(findLCSDPBottomUp("passport", "ppsspt"))
