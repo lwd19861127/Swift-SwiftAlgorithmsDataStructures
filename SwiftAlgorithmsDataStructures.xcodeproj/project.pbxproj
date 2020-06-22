@@ -37,6 +37,7 @@
 		865DC8C2249E4C8A00EEECC4 /* levelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DC8C1249E4C8A00EEECC4 /* levelOrder.swift */; };
 		865DC8C4249E4DD700EEECC4 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DC8C3249E4DD700EEECC4 /* TreeNode.swift */; };
 		865DC8C6249E527600EEECC4 /* sortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DC8C5249E527600EEECC4 /* sortedArrayToBST.swift */; };
+		865DC8C8249EF65F00EEECC4 /* MiniStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DC8C7249EF65F00EEECC4 /* MiniStack.swift */; };
 		86646CD4240F1E6C00E21511 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86646CD3240F1E6C00E21511 /* TomatoFarm.swift */; };
 		866661532421510500B1F295 /* PrettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866661522421510500B1F295 /* PrettyNumber.swift */; };
 		866661552421663800B1F295 /* 2xNtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866661542421663800B1F295 /* 2xNtiles.swift */; };
@@ -126,6 +127,7 @@
 		865DC8C1249E4C8A00EEECC4 /* levelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
 		865DC8C3249E4DD700EEECC4 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		865DC8C5249E527600EEECC4 /* sortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedArrayToBST.swift; sourceTree = "<group>"; };
+		865DC8C7249EF65F00EEECC4 /* MiniStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniStack.swift; sourceTree = "<group>"; };
 		86646CD3240F1E6C00E21511 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		866661522421510500B1F295 /* PrettyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyNumber.swift; sourceTree = "<group>"; };
 		866661542421663800B1F295 /* 2xNtiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2xNtiles.swift; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				865DC8BF249E435D00EEECC4 /* isValidBST.swift */,
 				865DC8C1249E4C8A00EEECC4 /* levelOrder.swift */,
 				865DC8C5249E527600EEECC4 /* sortedArrayToBST.swift */,
+				865DC8C7249EF65F00EEECC4 /* MiniStack.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 				866661532421510500B1F295 /* PrettyNumber.swift in Sources */,
 				8666615D2422BFFC00B1F295 /* LongestIncreasingSubsequence.swift in Sources */,
 				8699A61D2411A9FC00C305B8 /* CC.swift in Sources */,
+				865DC8C8249EF65F00EEECC4 /* MiniStack.swift in Sources */,
 				86DF3A2F241C474400B11FF8 /* MakeOne.swift in Sources */,
 				8678CE452403077C00E69AA1 /* PriorityQueue.swift in Sources */,
 				865DC8C6249E527600EEECC4 /* sortedArrayToBST.swift in Sources */,

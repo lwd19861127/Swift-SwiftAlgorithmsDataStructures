@@ -130,4 +130,16 @@ import Foundation
 
 //print(lps("abba").count)
 
-print(findLCSDPBottomUp("passport", "ppsspt"))
+//print(findLCSDPBottomUp("passport", "ppsspt"))
+
+let obj = MinStack()
+obj.push(1)
+obj.push(-2)
+obj.push(3)
+obj.pop()
+let ret_3: Int = obj.getMin()
+obj.pop()
+let ret_4: Int = obj.top()
+let ret_5: Int = obj.getMin()
+
+
